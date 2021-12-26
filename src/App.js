@@ -3,7 +3,12 @@ import Resturant from "./component/Resturant";
 
 
 const App = () => {
-  return <Resturant />;
+  return (
+    <div>
+      <h1>helllllllloooo<h1/>
+      <Resturant />
+    <div/>
+    )
 };
 
 export default App;
